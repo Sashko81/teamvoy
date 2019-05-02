@@ -1,0 +1,74 @@
+/*clear default styles*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, q, samp,
+blockquote, abbr, address, cite, code, del, dfn, em, img, ins, kbd, small, sub,
+strong, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, footer, label,
+legend, table, caption, canvas, tbody, tfoot, thead, th, td, article, aside,
+details, figcaption, figure, header, nav, menu, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+main h1 {
+    width: 500px;
+    border: 1px solid black;
+    /*margin: 50px 0;*/
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+}
+
+main div.container-card {
+    margin-left: 120px;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 1300px;
+    /*border: 1px solid green;*/
+}
+
+main div.container-card div.card {
+    width: 135px;
+    height: 200px;
+    margin: 0 0 0 10px;
+    border: 1px solid black;
+}
+
+main div.container-card div.card h2 {
+    text-align: center;
+}
+
+main div.container-card div.card img {
+    width: 122px;
+    margin: 0 auto;
+}
+
+main div.container-card div.card>p>button {
+    width: 60px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+main div.container-card div.card>p>button.grass {
+    background-color: #A1D486;
+}
+
+main div.container-card div.card>p>button.poison {
+    background-color: #9272A1;
+}
+
+main div.container-card div.card>p>button.fire {
+    background-color: #EB7571;
+}
+
+main div.container-card div.card>p>button.electric {
+    background-color: #F8D468;
+}
+
+main div.container-card /*p.container-fluid */button.main-button {
+    width: 100%;
+    border-radius: 7px;
+}
