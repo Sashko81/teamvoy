@@ -13,43 +13,57 @@ audio, video {
     background: transparent;
 }
 
-main h1 {
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
     width: 500px;
-    border: 1px solid black;
-    /*margin: 50px 0;*/
-    margin: 0 auto;
-    font-size: 32px;
+    border: 1px solid #000000;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 42px;
     text-align: center;
 }
 
+main {
+    display: flex;
+    /*flex-direction: row;*/
+    line-height: 1;
+}
+
 main div.container-card {
-    margin-left: 120px;
+    margin-left: 80px;
+    /*padding: 20px 0 0 0;*/
     flex-wrap: wrap;
-    width: 450px;
+    width: 520px;
     height: 1300px;
-    /*border: 1px solid green;*/
+    border: 1px solid green;
 }
 
 main div.container-card div.card {
-    width: 135px;
-    height: 200px;
-    margin: 0 0 0 10px;
-    border: 1px solid black;
+    width: 145px;
+    height: 260px;
+    margin: 10px;
+    border: 1px solid #000000;
 }
 
 main div.container-card div.card h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 main div.container-card div.card img {
-    width: 122px;
-    margin: 0 auto;
+    width: 132px;
+    margin: 5px;
 }
 
 main div.container-card div.card>p>button {
     width: 60px;
-    margin-left: 3px;
-    font-size: 12px;
+    margin: 4px 2px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 main div.container-card div.card>p>button.grass {
@@ -71,4 +85,27 @@ main div.container-card div.card>p>button.electric {
 main div.container-card /*p.container-fluid */button.main-button {
     width: 100%;
     border-radius: 7px;
+}
+
+main div.option-card {
+    height: 500px;
+    width: 230px;
+    border: 1px solid #000000;
+    margin: 290px 0 0 0;
+}
+
+main div.option-card>img {
+    width: 220px;
+    margin: 4px;
+}
+
+main div.option-card>h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+table, tr {
+    border: 1px solid #808080;
+    display: flex;
+    justify-content: center;
 }
