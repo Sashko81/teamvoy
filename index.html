@@ -104,7 +104,7 @@
             </p>
         </div>
         <p class="container-fluid">
-            <button class=" btn btn-primary main-button">
+            <button class=" btn btn-primary main-button" id="open" onclick="showDiv()">
                 <strong>Load More</strong>
             </button>
         </p>
@@ -113,47 +113,59 @@
         <img src="images/square.jpg">
         <h2><strong>Charmander #004</strong></h2>
         <table>
-            <tbody>
+            <tbody class="container-fluid">
             <tr>
-                <td>Type</td>
-                <td>Fire</td>
+                <td class="col-10">Type</td>
+                <td class="col-2">Fire</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">Attack</td>
+                <td class="col-2">52</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">Defense</td>
+                <td class="col-2">43</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">HP</td>
+                <td class="col-2">39</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">SP Attack</td>
+                <td class="col-2">60</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
-            </tr>
-            <tr><td>Attack</td>
-                <td>52</td></tr>
-            <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">SP Defense</td>
+                <td class="col-2">50</td>
             </tr>
             <tr>
-                <td>Attack</td>
-                <td>52</td>
+                <td class="col-10">Speed</td>
+                <td class="col-2">65</td>
+            </tr>
+            <tr>
+                <td class="col-10">Weight</td>
+                <td class="col-2">85</td>
+            </tr>
+            <tr>
+                <td class="col-10">Total moves</td>
+                <td class="col-2">89</td>
             </tr>
             </tbody>
         </table>
+    </div>
+    <!--sample div-->
+    <div class="card" id="content">
+        <img src="images/square.jpg" alt="Bulbazar" title="Bulbazar">
+        <h2>Bulbazar</h2>
+        <p>
+            <button class="btn grass">Grass</button>
+            <button class="btn poison">Poison</button>
+        </p>
     </div>
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

@@ -22,7 +22,7 @@ header h1 {
     width: 500px;
     border: 1px solid #000000;
     margin: 20px 0;
-    padding: 10px;
+    /*padding: 10px;*/
     font-size: 42px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ main div.container-card {
     flex-wrap: wrap;
     width: 520px;
     height: 1300px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 main div.container-card div.card {
@@ -90,7 +90,7 @@ main div.container-card /*p.container-fluid */button.main-button {
 main div.option-card {
     height: 500px;
     width: 230px;
-    border: 1px solid #000000;
+    border: 1px solid #a9a9a9;
     margin: 290px 0 0 0;
 }
 
@@ -104,8 +104,13 @@ main div.option-card>h2 {
     text-align: center;
 }
 
-table, tr {
-    border: 1px solid #808080;
-    display: flex;
-    justify-content: center;
+table {
+    width: 220px;
+    margin: 4px;
+    text-align: center;
+}
+tr, td {
+    border: 1px solid #a9a9a9;
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
